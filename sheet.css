@@ -1,0 +1,82 @@
+body{
+    font-family: monospace;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed, scroll;
+    background-position: left bottom, center;
+    margin: 15px;
+    background-color: #222324;
+}
+.info{
+    color: lime;
+    font-family: monospace;
+    font-size: 115%;
+}
+a:visited{
+    color:#ff0000;
+}
+.col{
+    max-width: 90%;
+    width:fit-content;
+    padding-right: 25%;
+    margin: 18px;
+    margin-left: 110px;
+    float: left;
+    font-size: 12px;
+    color: #888;
+    border: #ff0000;
+}
+table, tr, th, td{
+    background-color: black;
+    border-collapse:collapse;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.hiddendot{
+    list-style-type: none;
+}
+.header{
+    width: 100%;
+    float: inline-start;
+    text-align: left;
+    font-size: 36px;
+    color: white;
+    margin-left: 75px;
+    padding-top: 6px;
+    border-bottom: #888 thin solid;
+}
+.header2{
+    width: 100%;
+    float: inline-start;
+    text-align: left;
+    font-size: 24px;
+    color: white;
+    margin-left: 100px;
+    padding-top: 34px;
+    border-bottom: #888 thin solid;
+}
+.navbar{
+    font-size: large;
+    background-color: darkgreen;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+}
+.navbar ul{
+    overflow:auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+}
+.navbar li a{
+    padding: 3px 4px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:active{
+    color: #ff0000;
+}
+.navbar a:hover{
+    color: #eee666;
+}  
