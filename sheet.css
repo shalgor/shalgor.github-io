@@ -46,7 +46,7 @@ table, tr, th, td{
 }
 .header2{
     width: 100%;
-    float: inline-start;
+    float: left;
     text-align: left;
     font-size: 24px;
     color: white;
